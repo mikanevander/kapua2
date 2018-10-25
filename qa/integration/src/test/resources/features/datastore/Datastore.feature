@@ -749,8 +749,9 @@ Feature: Datastore tests
       |tba_2/1/1/3 |
     And I delete all indices
 
-  @StopExternalConsumers
-  Scenario: Stop external consumers for all scenario 
+  Scenario: Stop External Consumers for all scenarios
+
+    Given Stop External Consumers
 
   Scenario: Stop broker after all scenarios 
 
